@@ -1,0 +1,59 @@
+{
+  "name": "reactjs-test-stub",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "bpmn-js": "2.1.0",
+    "enzyme-adapter-react-16": "1.5.0",
+    "mobx": "^3.5.1",
+    "mobx-react": "^4.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "^2.0.2",
+    "styled-components": "^3.1.6",
+    "enzyme": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
+    "customize-cra": "^0.5.0",
+    "react-scripts": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ]
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "legacyDecorators": true
+      }
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

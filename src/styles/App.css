@@ -1,0 +1,23 @@
+#bjs-container {
+  background: #ffffff;
+  display: block;
+}
+
+hr#hr-line {
+  background-color: #ffffff;
+  width: 100%;
+  border: 1rem 0 25rem 0;
+  position: fixed;
+  top: 4rem;
+  z-index: 99;
+}
+
+.content {
+  margin-top: 5.2rem;
+}
+
+@media (width: 320px), (width: 375px) {
+  .content {
+    margin-top: 4rem;
+  }
+}
